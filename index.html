@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="header">
+        <h1>Do it! 자바스크립트+제이쿼리 입문</h1>
+    </div>
+    <div id="print_box">
+        <button id="clear_btn" onclick="clear_file()">CLEAR</button>
+        <p style="font-size: 1.3em; font-weight: bold; color: rgb(101, 48, 166); text-align: center;"> <i>📢</i> 출력 결과 확인<i>✨</i></p>
+        <p id="result" style="border-top: 1px solid; padding-left: 10px;"></p>
+    </div>
+    <div id="btn_container">
+        <!-- Chapter02 -->
+        <div class="chap_container">
+            <p style="font-size: 1.3em; font-weight: bold; color: rgb(57, 62, 204); text-align: center;">Chap02. 자바스크립트 기초 문법</p>
+            <button class="btn" onclick="statement_c()">02-1. 자바스크립트 선언문</button>
+            <button class="btn" onclick="var_ex1_c()">02-2. 변수 선언</button>
+            <button class="btn" onclick="boolean_c()">02-2. boolean 타입의 변수 선언</button>
+            <button class="btn" onclick="typeof_c()">02-2. typeof로 변수의 자료형 확인</button>
+            <button class="btn" onclick="operator_c()">02-3. 산술 연산자</button>
+            <button class="btn" onclick="string_plus_c()">02-3. 문자 결합 연산자</button>
+            <button class="btn" onclick="dboperator_c()">02-3. 대입 연산자</button>
+            <button class="btn" onclick="texttable_c()">02-3. HTML 태그를 대입연산자로 결합</button>
+            <button class="btn" onclick="growth_c()">02-3. 증감 연산자</button>
+            <button class="btn" onclick="compare_operator_c()">02-3. 비교 연산자</button>
+            <button class="btn" onclick="prior_c()">02-3. 논리연산자, 연산자 우선순위</button>
+            <button class="btn" onclick="three_condi_c()">02-3. 삼항 조건 연산자</button>
+            <button class="btn" onclick="weight_input_test_c()">실습. 적정체중 계산하기</button>
+            <button class="btn" onclick="ex01()">연습. 지출비용 계산하기</button>
+            <button class="btn" onclick="ex02()">실습. 판매량 실적 계산하기</button>
+        </div>
+
+        <!-- Chapter03 -->
+        <div class="chap_container">
+            <p style="font-size: 1.3em; font-weight: bold; color: rgb(57, 62, 204); text-align: center;">Chap03. 제어문</p>
+            <button class="btn" onclick="_functionName()">주제</button>
+
+        </div>
+
+        
+    </div>
+
+    <script src="./chap02.js"></script>
+</body>
+</html>
