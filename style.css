@@ -64,3 +64,18 @@ xmp{
     border: 1px solid green;
     background-color: cadetblue;
 }
+
+/* 파란색 글자 */
+.blue{
+    color: blue;
+}
+
+/* 빨간색 글자 */
+.red{
+    color: red;
+}
+
+/* 녹색 글자 */
+.green{
+    color: green;
+}
