@@ -18,6 +18,8 @@ i{
 }
 
 #print_box{
+    max-height: 300px;
+    overflow-y: scroll;
     border: 2px solid;
     background-color: rgb(183, 219, 230);
     position: sticky;
