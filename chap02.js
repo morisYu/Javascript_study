@@ -4,6 +4,7 @@ let print = document.querySelector("#result");
 // 삭제 버튼
 function clear_file(){
     print.innerHTML=" ";
+    location.reload();
 }
 
 // HTML 내부에서 출력 방법
